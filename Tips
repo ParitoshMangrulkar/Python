@@ -1,0 +1,6 @@
+Convert Tabs to Comman
+----------------------
+
+with open('5_Years_Of_Sales.tab') as fin, open('5_Years_Of_Sales.csv', 'w') as fout:
+    for line in fin:
+        fout.write(line.replace('\t', ','))
