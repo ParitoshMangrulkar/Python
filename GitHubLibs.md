@@ -32,3 +32,7 @@ pyperf: Toolkit to run Python benchmarks.
 snakeviz: An in-browser Python profile viewer with great support for Jupiter notebook.
 Cachier: Persistent, stale-free, local and cross-machine caching for Python functions.
 Faiss: A library for efficient similarity search and clustering of dense vectors.
+
+
+GITHUB:
+jpmorganchase/python-training
