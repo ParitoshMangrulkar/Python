@@ -33,6 +33,8 @@ snakeviz: An in-browser Python profile viewer with great support for Jupiter not
 Cachier: Persistent, stale-free, local and cross-machine caching for Python functions.
 Faiss: A library for efficient similarity search and clustering of dense vectors.
 
+Django Tutorial
+https://m.youtube.com/watch?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO&v=xv_bwpA_aEA
 
 GITHUB:
 jpmorganchase/python-training
