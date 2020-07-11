@@ -1,3 +1,5 @@
+https://pythonprogramming.net/sockets-tutorial-python-3/
+
 
 #Misc (the weird ones)
 -Knock Knock: Send notifications from Python to mobile devices or the desktop or email.
