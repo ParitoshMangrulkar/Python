@@ -4,3 +4,25 @@ Convert Tabs to Comman
 with open('5_Years_Of_Sales.tab') as fin, open('5_Years_Of_Sales.csv', 'w') as fout:
     for line in fin:
         fout.write(line.replace('\t', ','))
+
+
+mechanize - Example
+------------
+https://stackoverflow.com/questions/23102833/how-to-scrape-a-website-which-requires-login-using-python-and-beautifulsoup
+
+import mechanize
+from bs4 import BeautifulSoup
+import urllib2 
+import cookielib
+
+cj = cookielib.CookieJar()
+br = mechanize.Browser()
+br.set_cookiejar(cj)
+br.open("https://id.arduino.cc/auth/login/")
+
+br.select_form(nr=0)
+br.form['username'] = 'username'
+br.form['password'] = 'password.'
+br.submit()
+
+print br.response().read()
